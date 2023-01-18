@@ -147,6 +147,7 @@ a {
     cursor: pointer;
     color: rgb(236, 236, 236);
     font-weight: bold;
+    margin-right: 30px;
 }
 
 
@@ -1811,9 +1812,13 @@ a {
 
     .bloque1_home{
         margin-top: 60px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 330px;
     }
 
+    .divHome_2{
+        margin-top: 40px;
+    }
 
 }
