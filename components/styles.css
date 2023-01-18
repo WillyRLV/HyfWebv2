@@ -121,7 +121,7 @@ a {
 }
 
 .logo h1 {
-    font-size: 0.8em;
+    font-size: 1em;
     color: var(--white-color);
 }
 
@@ -172,7 +172,8 @@ a {
 
 .nav__link {
     color: #708785;
-    font-weight: 900;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .social {
@@ -261,10 +262,10 @@ a {
 
 .home {
     position: relative;
-    background:rgba(0, 0, 0, 0.4) url(img/img2.jpg);
+    background:rgba(0, 0, 0, 0.5)  url(img/foto_prueba.jpg);
     width: 100%;
     background-size: cover;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
@@ -272,23 +273,61 @@ a {
     min-height: 100vh;
     background-blend-mode: darken;
 
-
 }
 
 /*home*/
 
+.divHome_1{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    column-count:2;
+    margin-top: 60px;
+}
+
+.divHome_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
 .divhome {
     position: relative;
-    padding-top: 200px;
+    padding-top: 250px;
     display: flex;
     color: #e9f9e9;
     gap:20px;
     flex-direction: column;
     height: 85%;
+    /* margin-left: 50px; */
    
 
 }
 
+.bloque1_home{
+    background-color: rgb(0, 191, 175);
+    width: 380px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.Titulo_bloque2{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.Texto_bloque2{
+    color: white;
+    margin-top: 10px;
+    font-weight: 100;
+}
 
 
 .custom-title-slider {
@@ -357,10 +396,10 @@ a {
 }
 
 .size {
-    font-size: .8em;
-    width: 135px;
-    height: 25px;
-    padding-top: 2px;
+    font-size: 1em;
+    width: 145px;
+    height: 30px;
+    padding-top: 3px;
 
 }
 
@@ -411,9 +450,8 @@ a {
 .arrow a {
     position: relative;
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    
-
 }
 
 .chevron {
@@ -1549,7 +1587,7 @@ a {
     }
 
     .container2 {
-        max-width: 896px;
+        /* max-width: 1050px; */
     }
 
     /*navbar*/
@@ -1571,7 +1609,7 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: auto;
+        margin: 0 100px 0 50px;
 
 
     }
@@ -1636,7 +1674,7 @@ a {
 
     .arrow {
         margin-top: -80px;
-        margin-left: 50%;
+        /* margin-left: 50%; */
     }
 
 
@@ -1763,6 +1801,18 @@ a {
     .divhome{
         margin-top: -60px;
     
+    }
+
+    .divHome_1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .bloque1_home{
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
